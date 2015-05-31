@@ -1,5 +1,9 @@
 # Date formatting helper for Dust.js
 
+This fork is compatible with [dustjs-helper-formatdate v0.1.0](https://github.com/adambene/dustjs-helper-formatdate) while providing the saner interface introduced in [0.2](https://github.com/adambene/dustjs-helper-formatdate/pull/1). 
+
+It also adds a few tests.
+
 ## For Node.js
 ```javascript
 var dust = require('dustjs-linkedin');
