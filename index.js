@@ -6,7 +6,7 @@
     var lan = dust.helpers.tap(params.lan, chunk, context) || 'en-US'
     date = +date || date
     moment.locale(lan)
-    return chunk.write(moment(date).format(format))
+    return chunk.write(moment(new Date(date)).format(format))
   }
 
   if (typeof exports !== 'undefined') {

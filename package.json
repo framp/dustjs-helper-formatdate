@@ -1,6 +1,6 @@
 {
   "name": "dustjs-helper-formatdate-legacy",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Federico Rampazzo",
     "email": "frampone@gmail.com",
@@ -30,12 +30,12 @@
     "moment"
   ],
   "dependencies": {
-    "moment": "2.10.3"
+    "moment": "2.10.6"
   },
   "license": "MIT",
   "devDependencies": {
-    "dustjs-helpers": "^1.7.1",
-    "dustjs-linkedin": "^2.7.1",
-    "mocha": "^2.2.5"
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2",
+    "mocha": "^2.3.0"
   }
 }
